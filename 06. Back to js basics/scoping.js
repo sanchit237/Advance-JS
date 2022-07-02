@@ -3,7 +3,8 @@ function init(){
 	function display(){
 		console.log(firstName);
 	}
-	display();
+	return display;
 }
 
-init();
+var result = init();
+result();
