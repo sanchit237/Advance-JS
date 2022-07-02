@@ -12,4 +12,6 @@ Car.prototype.modelName = function(){
 	console.log(`Model name of the car is ${this.model}`);
 }
 
-car1.modelName();
+if (car1.hasOwnProperty('model')){
+	car1.modelName();
+}
